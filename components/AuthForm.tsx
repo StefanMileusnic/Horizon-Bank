@@ -35,8 +35,8 @@ const AuthForm = ({ type }: { type: string }) => {
     resolver: zodResolver(formSchema),
 
     defaultValues: {
-      email: "",
-      password: "",
+      email: "st.mileusnic@gmail.com",
+      password: "12345678",
     },
   });
 
